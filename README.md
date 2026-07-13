@@ -77,17 +77,9 @@ npm install
 
 ### Configure Environment
 
-Copy the example environment configuration:
+> **Note:** A pre-configured `.env` file has been directly included in this repository to simplify the setup process. **In a real production environment, you should NEVER commit or push your `.env` file to source control.**
 
-```bash
-# Windows
-copy .env.example .env
-
-# macOS / Linux
-cp .env.example .env
-```
-
-> **Only one value needs to be changed:** Open the `.env` file and set `DB_PASSWORD` to the MySQL root password you created during Step 4 of the MySQL setup above. All other values can be left as their defaults.
+**Only one value needs to be changed:** Open the `.env` file and set `DB_PASSWORD` to the MySQL root password you created during Step 4 of the MySQL setup above. All other values can be left as their defaults.
 
 ```env
 DB_PASSWORD=your_mysql_root_password
