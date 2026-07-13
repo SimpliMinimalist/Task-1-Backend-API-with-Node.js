@@ -251,4 +251,11 @@ To fully verify the API endpoints, we will use **Postman**, a popular API testin
 
 If all four endpoints return the expected responses as shown above — the health check returns a `200 OK`, registration creates a new user, login returns a signed JWT, and the protected route returns the user record when a valid token is provided — then **the backend API is fully functional and Stage 1 is complete**.
 
-You can now proceed to the [Stage 2 React Frontend](https://github.com/SimpliMinimalist/Stage-2-React-Front-End) to see how this API is consumed by a React application.
+## Frontend Integration
+
+To see this API integrated with a React frontend, refer to the [Stage 2 React Frontend](https://github.com/SimpliMinimalist/Stage-2-React-Front-End) repository. It consumes all three endpoints documented above and provides a complete working UI for registration, login, and a protected dashboard.
+
+| Register | Login | Dashboard |
+|----------|-------|-----------|
+| ![Register Page](assets/register.png) | ![Login Page](assets/login.png) | ![Dashboard](assets/dashboard.png) |
+
